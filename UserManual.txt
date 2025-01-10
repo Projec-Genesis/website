@@ -1,0 +1,41 @@
+Hello all,
+
+This is a UserManual straight from Genesis' staff. Read it to understand what it does!
+
+Genesis is a free and open-sourced project for RocketLeague AI agents. This project will for ever remain free. If you paid for this cheat you have been scammed. Source can be found in the discord.
+
+REQUIREMENTS:
+Python 3.11 (Add it to path when you are in the installer else it won't work!
+
+How to use Project Genesis v1.5.0:
+
+When you extract the folder there are three things inside. A folder named Genesis 1.5.0 Source Code, pyvenv.cfg and sdk_config.json.
+
+Before you go straight in the folder you have to change the pyvenv.cfg to this:
+
+home = C:\Users\...\AppData\Local\Programs\Python\Python311
+include-system-site-packages = false
+version = 3.11.0
+executable = C:\Users\...\AppData\Local\Programs\Python\Python311\python.exe
+command = C:\Users\...\AppData\Local\Programs\Python\Python311\python.exe -m venv "\path\to\Genesis 1.5.0 Source Code\.venv"
+
+… = your user account on windows.
+\path\to\ = the path to this folder where u have the .venv, which is inside the folder which you see when you are filling pyvenv.cfg.
+
+Change sdk_config.json:
+
+When you are on Epic Games version paste this:
+{
+  "gnames_offset": 36869400,
+  "gobjects_offset": 36869472
+}
+
+When you are on Steam version paste this:
+{
+  "gnames_offset": 37370584,
+  "gobjects_offset": 37370656
+}
+
+Now you are good to go! Go inside the folder and run the Run.bat file! Enjoy!!
+
+© 2025 Genesis. All rights reserved.

@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+    background-color: #121212;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #1f1f1f;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: purple;
+}
+
+.navbar nav a.active {
+    color: purple;
+}
+
+/* Content Section */
+.content {
+    text-align: center;
+    padding: 4em 2em;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 1em auto;
+    max-width: 800px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1em;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a.active {
+    color: purple;
+}
+
+.navbar nav a:hover {
+    color: purple;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    padding: 2em;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Download page specific styles */
+.download-content {
+    text-align: center;
+    padding: 2em;
+}
+
+.download-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.download-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.download-links {
+    margin: 2em 0;
+}
+
+.download-button {
+    background-color: purple;
+    color: white;
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin: 0.5em;
+    display: inline-block;
+}
+
+.download-button:hover {
+    background-color: purple;
+}
+
+/* Contact page specific styles */
+.contact-content {
+    text-align: center;
+    padding: 2em;
+}
+
+.contact-content h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.contact-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #1f1f1f;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+    color: white;
+}
